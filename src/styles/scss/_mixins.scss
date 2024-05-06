@@ -1,0 +1,87 @@
+@mixin flex-align-center {
+  display: flex;
+  align-items: center;
+}
+@mixin flex-justify-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-justify-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-start-between {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+@mixin inline-flex-justify-center {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-column-align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// title
+@mixin heading1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: $black-00;
+}
+@mixin small-text {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: $grey-66;
+}
+
+@mixin primary-btn-1 {
+  @include flex-justify-center;
+  padding: 11px 30px 11px;
+  height: 46px;
+  background: $grey-4C;
+  border-radius: 5px;
+  width: 100%;
+  color: $white-1;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: $Pretend-semibold;
+  @media screen and (max-width: 640px) {
+    padding: 11px 26px 11px;
+  }
+}
+@mixin small-solid-btn {
+  @include flex-justify-center;
+  padding: 14px 30px;
+  height: 47px;
+  color: $white-1;
+  border-radius: 5px;
+  width: auto;
+  background: $purple-F4;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: $Pretend-semibold;
+}
+@mixin small-outline-btn {
+  @include flex-justify-center;
+  padding: 4px;
+  height: 45px;
+  background: $white-1;
+  border-radius: 5px;
+  width: 105px;
+  color: $green-68;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  border: 1px solid $green-68;
+  font-family: $Pretend-semibold;
+}

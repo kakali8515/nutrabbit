@@ -1,0 +1,35 @@
+.Auth-wrap {
+  padding: 100px 20px 70px;
+  h1 {
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 59px;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+  .orangeBtn {
+    margin-top: 10px;
+  }
+  hr {
+    border: 1px solid $black-3;
+  }
+  .Not-Member {
+    h5 {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 27px;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+  }
+  &.register-wrap{
+    padding-top: 124px;
+    padding-bottom: 100px;
+    position: relative;
+    .back-position{
+      position: absolute;
+      top: 53px;
+      left: 23px;
+    }
+  }
+}

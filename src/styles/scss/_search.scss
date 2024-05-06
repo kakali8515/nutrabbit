@@ -1,0 +1,239 @@
+.search-result-main {
+    padding: 80px 0;
+
+    @media screen and (max-width: 768px) {
+        padding: 60px 0 155px;
+    }
+
+    .search-wrap {
+        @include flex-justify-center;
+        .search-inner {
+            position: relative;
+            max-width: 534px;
+            width: 100%;
+
+            @media screen and (max-width: 640px) {
+                max-width: 100%;
+            }
+
+            input {
+                width: 100%;
+                height: 34px;
+                border-bottom: 1px solid $black-00;
+                font-size: 18px;
+                line-height: 22px;
+                color: $grey-4C;
+                padding: 5px 30px 5px 5px;
+
+                &::placeholder {
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: $grey-A4;
+                    font-weight: 400;
+                }
+            }
+
+            a {
+                @include flex-justify-center;
+                position: absolute;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto 0;
+            }
+        }
+    }
+
+    .search-result-body {
+        // margin-top: 40px;
+
+        // @media screen and (max-width: 768px) {
+        //     margin-top: 30px;
+        // }
+
+        .search-result-title {
+            font-size: 16px;
+            line-height: 21px;
+            color: $grey-66;
+            font-family: $default-font;
+            span {
+                font-weight: bold;
+                margin: 0 5px 0 0;
+                font-family: $Pretend-bold;
+            }
+        }
+
+        .search-resul-list-wrap {
+            margin-top: 40px;
+
+            @media screen and (max-width: 768px) {
+                margin-top: 30px;
+            }
+
+            .search-resul-list {
+                background: $white-1;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                padding: 40px 20px;
+                margin-top: 40px;
+
+                &:first-child {
+                    margin-top: 0;
+                }
+
+                @media screen and (max-width: 768px) {
+                    margin-top: 30px;
+                    padding: 30px 20px;
+                }
+
+                .list-heading {
+                    font-size: 24px;
+                    line-height: 24px;
+                    color: $grey-4C;
+                    font-weight: 700;
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid $grey-CF;
+                    font-family: $Pretend-bold;
+                    @media screen and (max-width: 768px) {
+                        font-size: 20px;
+                        line-height: 20px;
+                    }
+                }
+
+                .no-result-found {
+                    @include flex-justify-center;
+                    margin: 20px 0 0 0;
+
+                    span {
+                        font-size: 16px;
+                        line-height: 130%;
+                        color: $grey-66;
+                        font-weight: 400;
+                        font-family: $default-font;
+                        @media screen and (max-width: 768px) {
+                            line-height: 24px;
+                        }
+                    }
+                }
+                .search-list-inner{
+                    .search-list-item {
+                        // margin: 20px -1% 40px;
+                        margin: 20px -23px 0;
+                        display: flex;
+                        align-items: flex-start;
+                        // padding: 0 27px;
+                        
+                        @media screen and (max-width: 1200px) {
+                            margin: 20px -15px 0;
+                        }
+    
+                        @media screen and (max-width: 768px) {
+                            // margin-bottom: 20px;
+                            flex-direction: column;
+                        }
+    
+                        .search-card-inner {
+                            flex: 0 0 25%;
+                            max-width: 25%;
+                            width: 25%;
+                            padding:  0 23px;
+                            @include flex-justify-center;
+                            flex-direction: column;
+                            @media screen and (max-width: 1100px) {
+                                flex: 0 0 33.33%;
+                                max-width: 33.33%;
+                                width: 33.33%;
+                                padding: 0 15px;
+                            }
+                            @media screen and (max-width: 768px) {
+                                width: 100%;
+                                max-width: 100%;
+                                flex: 0 0 100%;
+                                margin-bottom: 20px;
+                                &:last-child{
+                                    margin-bottom: 0;
+                                }
+                            }
+                            .img-wrapper-search{
+                                height: 240px;
+                                width: 240px;
+                                position: relative;
+                                @media screen and (max-width: 992px) {
+                                    height: 200px;
+                                    width: 200px;
+                                }
+                                // @media screen and (max-width: 768px) {
+                                //     display: block;
+                                // }
+                            }
+                            .search-result-img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                border-radius: 5px;
+                                cursor: pointer;
+                                // @media screen and (max-width: 768px) {
+                                //     display: block;
+                                // }
+                            }
+    
+                            p {
+                                cursor: pointer;
+                                font-weight: 600;
+                                font-size: 18px;
+                                line-height: 22px;
+                                letter-spacing: 0.01em;
+                                color: $black-33;
+                                margin-top: 20px;
+                                font-family: $Pretend-semibold;
+                                @media screen and (max-width: 768px) {
+                                    margin-top: 0;
+                                    line-height: 27px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .pagination-wrap {
+                @media screen and (max-width: 768px) {
+                    margin-top: 20px;
+                }
+            }
+
+            &.faq {
+                .faq-item {
+                    margin-top: 20px;
+                    border: 1px solid $grey-CF;
+                    border-radius: 5px;
+
+                    button {
+                        @include flex-justify-center;
+                        width: 100%;
+                        min-height: 49px;
+                        background: $white-F2;
+                        font-size: 16px;
+                        line-height: 19px;
+                        letter-spacing: 0.02em;
+                        color: $grey-A4;
+                        border-top-left-radius: 5px;
+                        border-top-right-radius: 5px;
+                        padding: 5px;
+                    }
+
+                    .accordion-details {
+                        padding: 15px 15px 21px;
+
+                        p {
+                            text-align: center;
+                            font-size: 16px;
+                            line-height: 21px;
+                            color: $grey-66;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

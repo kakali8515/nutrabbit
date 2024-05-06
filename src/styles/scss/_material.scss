@@ -1,0 +1,262 @@
+.materialForm{
+    .tableWrap{
+        border: 1px solid $grey-CF;
+        border-radius: 5px;
+        overflow: hidden;
+        // margin: 20px 0 40px;
+        margin: 30px 0 40px;
+
+        @media screen and (max-width: 767px){
+            margin: 20px 0 40px;
+        }
+        table{
+            width: 100%;
+            tbody{
+                .applicationDesc{
+                    cursor: pointer;
+                }
+            }
+            thead{
+                th{
+                    background: $grey-9;
+                    padding: 15px;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: $grey-A4;
+                    font-weight: normal;
+                    text-align: center;
+                    font-family: $default-font;
+                    letter-spacing: 0.02em;
+                }
+            }
+            td{
+                text-align: center;
+                padding: 15px;
+                font-size: 16px;
+                line-height: 110%;
+                color: $grey-66;
+                border-bottom: 1px solid $grey-EF;
+                font-family: $default-font;
+                @media screen and (max-width: 768px) {
+                    font-size: 14px;
+                    line-height: 14px;
+                    padding: 18px;
+                }
+            }
+        }
+    }
+    .fGroup{
+        margin-bottom: 40px;
+        &.mb0{
+            margin-bottom: 0 !important;
+        }
+        label{
+            display: block;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 100%;
+            margin-bottom: 15px;
+            color: $grey-4C;
+            font-family: $Pretend-bold;
+            @media screen and (max-width: 640px) {
+                font-size: 20px;
+                line-height: 100%;
+            }
+            &.mb0{
+                margin-bottom: 0 !important;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 20px;
+                line-height: 20px;
+            }
+        }
+        span{
+            font-size: 18px;
+            line-height: 110%;
+            color: $grey-82;
+            padding-bottom: 20px;
+            border-bottom: 1px solid $grey-CF;
+            display: block;
+            margin: 20px 0 0px;
+            font-weight: 400;
+            margin-bottom: 30px;
+            font-family: $default-font;
+            &.mb0{
+                margin-bottom: 0 !important;
+            }
+            @media screen and (max-width: 768px) {
+                font-size: 16px;
+                line-height: 24px;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+        }
+        input{
+            background: $white-FA;
+            color: $grey-66;
+        }
+        input,textarea{
+            width: 100%;
+            padding: 14px 20px;
+            border: 1px solid $grey-CF;
+            border-radius: 5px;
+            font-family: $default-font;
+            @media screen and (max-width: 768px) {
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+        textarea{
+            padding: 30px;
+            resize: none;
+            min-height: 193px;
+            @media screen and (max-width: 768px) {
+                padding: 20px;
+                min-height: 173px;
+            }
+        }
+    }
+    .product-list-wrap{
+        margin-top: 0;
+        .material-details{
+            h2{
+                span{
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    color: $grey-82;
+                    margin-left: 13px;
+                    font-family: $Pretend-medium;
+                }
+                @media screen and (max-width: 768px) {
+                    margin-right: 0 !important;
+                  }
+            }
+        }
+        ul{
+            font-size: 16px;
+            color: $grey-A4;
+            font-weight: 400;
+            line-height: 110%;
+            margin: 15px 0 40px;
+            font-family: $default-font;
+            li{
+                margin-bottom: 8px;
+                @media screen and (max-width: 640px) {
+                   font-size: 14px;
+                   line-height: 21px;
+                }
+            }
+        }
+        .btn-wrap{
+            button{
+                @media screen and (max-width: 640px) {
+                    min-width: 101px !important;
+                    padding: 10px 14px;
+                }
+            }
+            .btnWrapRight{
+                display: flex;
+                justify-content: space-between; 
+                gap: 20px;
+            }
+            &.tripple-btn{
+                .btn-left{
+                    @media screen and (max-width: 640px) {
+                        width: 33.33%;
+                    }
+                }
+                .btnWrapRight{
+                    @media screen and (max-width: 640px) {
+                        width: calc(100% - 33.33%);
+                    }
+                }
+            }
+        }
+    }
+}
+.ingredient-wrap{
+    margin-top: 0 !important;
+    .selectAllHeader{
+        .radio-wrap{
+            .custom-radio{
+                margin-bottom: 0;
+            }
+        }
+        .deleteBtn{
+            margin-top: 2px !important;
+        }
+    }
+}
+.addWrap{
+    padding: 30px 20px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    .selectAllHeader{
+        border-bottom: 1px solid $grey-CF;
+        padding: 20px 0;
+        li{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &.flex-justify-end{
+                justify-content: flex-end;
+            }
+            .radio-wrap{
+                color: $grey-66;
+                label{
+                    @media screen and (max-width: 640px) {
+                        padding-left: 30px;
+                    }
+                }
+            }
+        }
+        .deleteBtn{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: $grey-A4;
+            margin-top: -10px;
+            font-size: 16px;
+            line-height: 16px;
+            font-weight: 500;
+            font-family: $Pretend-medium;
+            i{
+                margin: 0px 0 0 12px;
+            }
+        }
+    }
+    .addIng{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid $grey-82;
+        padding: 16px;
+        border-radius: 5px;
+        margin: 15px 0 0 0;
+        color: $grey-82;
+        font-size: 18px;
+        line-height: 110%;
+        font-family: $Pretend-semibold;
+        @media screen and (max-width: 640px) {
+            margin-top: 20px;
+        }
+        button{
+            display: flex;
+            align-items: center;
+            i{
+                margin-right: 10px;
+            }
+        }
+    }
+    .flexEnd{
+        justify-content: flex-end !important;
+        .blue{
+            @media screen and (max-width: 640px){
+                width: 100%;
+            }
+        }
+    }
+}

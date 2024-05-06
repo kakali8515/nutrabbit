@@ -1,0 +1,245 @@
+.recomanded-blending-details {
+  @include flex-start-between;
+  width: 100%;
+  padding: 80px 0;
+  gap: 80px;
+
+  @media screen and (max-width: 1200px) {
+    gap: 40;
+  }
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding: 75px 0 80px 0;
+    gap: 50px;
+  }
+
+  .blending-left {
+    width: 50%;
+    position: relative;
+    min-height: 465px;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      min-height: auto;
+    }
+    .swiper {
+      position: relative;
+      &.mySwiper {
+        .swiper-wrapper {
+          .swiper-slide {
+            width: calc(100% - 112px);
+            padding-left: 112px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto !important;
+            @media screen and (max-width: 768px) {
+              padding-left: 0;
+              width: 100%;
+            }
+            img {
+              height: 100%;
+              width: 100%;
+              border-radius: 230px 230px 0 0;
+              object-fit: cover;
+              @media screen and (max-width: 768px) {
+                height: auto;
+                width: auto;
+                border-radius: 50% 50% 0 0;
+              }
+              @media screen and (max-width: 640px) {
+                border-radius: 230px 230px 0 0;
+              }
+            }
+          }
+        }
+      }
+
+      &.mySwiper2 {
+        height: 465px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 0 !important;
+        @media screen and (max-width: 768px) {
+          padding: 30px 0 0 !important;
+          position: relative;
+          height: auto;
+          padding-bottom: 50px;
+        }
+        .swiper-wrapper {
+          width: auto;
+          transform: none;
+          display: flex;
+          flex-direction: column;
+          @media screen and (max-width: 768px) {
+            flex-direction: row;
+          }
+          .swiper-slide {
+            height: 80px;
+            width: 81px !important;
+            margin: 0 0 15px !important;
+            @media screen and (max-width: 768px) {
+              width: 62px!important;
+              height: 62px;
+              margin: 0 9px 0 0 !important;
+            }
+
+            img {
+              width: 81px;
+              height: 80px;
+              @media screen and (max-width: 768px) {
+                width: 58px;
+                height: 58px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .blending-right {
+    width: 50%;
+    max-width: 499px;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .right-heading {
+      .login-icon {
+        margin-bottom: 4px;
+      }
+
+      h2 {
+        @include heading1;
+        font-size: 42px;
+        line-height: 50px;
+        font-family: $Pretend-extrabold;
+        color: $black-18;
+        font-weight: 800;
+        @media screen and (max-width: 768px) {
+          font-size: 30px;
+          line-height: 150%;
+          color: $black-18;
+          margin-top: 4px;
+        }
+      }
+
+      .blending-tag {
+        @include flex-align-center;
+        flex-wrap: wrap;
+        margin: 20px -5px 20px;
+
+        span {
+          @include flex-justify-center;
+          border: 1px solid $blue-E8;
+          box-sizing: border-box;
+          border-radius: 50px;
+          font-weight: 600;
+          font-size: 13px;
+          line-height: 16px;
+          color: $blue-E8;
+          height: 24px;
+          padding: 4px 10px;
+          margin: 0 5px 10px;
+          font-family: $Pretend-semibold;
+          @media screen and (max-width: 767px) {
+            margin: 0 5px;
+          }
+        }
+      }
+    }
+
+    .product-details-wrap {
+      ul {
+        margin-top: 10px;
+
+        li {
+          display: flex;
+          align-items: flex-start;
+          margin-top: 20px;
+
+          &:first-child {
+            margin-top: 0;
+          }
+
+          h2 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color: $grey-4C;
+            width: 120px;
+            margin-right: 15px;
+            font-family: $Pretend-medium;
+            @media screen and (max-width: 768px) {
+              line-height: 150%;
+            }
+          }
+
+          p, .p-text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: $grey-82;
+            width: calc(100% - 102px);
+            font-family: $default-font;
+            @media screen and (max-width: 768px) {
+              line-height: 150%;
+            }
+          }
+        }
+      }
+      .product-details-desc{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: $grey-4C;
+        font-family: $default-font;
+        @media screen and (max-width: 768px){
+          line-height: 150%;
+        }
+      }
+      .btn-primary {
+        margin-top: 30px;
+
+        @media screen and (max-width: 768px) {
+          margin-top: 20px;
+        }
+      }
+    }
+
+    .suggested-product {
+      margin-top: 30px;
+
+      h2 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: $grey-4C;
+        font-family: $Pretend-medium;
+      }
+
+      .smilar-product-img {
+        @include flex-align-center;
+        flex-wrap: wrap;
+        margin: 25px -1% 0;
+
+        @media screen and (max-width: 768px) {
+          margin: 15px -5px 0;
+        }
+
+        li {
+          margin: 0 1% 10px;
+          width: 90px;
+          img {
+            height: 90px;
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}

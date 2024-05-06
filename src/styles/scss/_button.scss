@@ -1,0 +1,76 @@
+.btn-primary{
+  @include primary-btn-1;
+  &.with-icon{
+    height: 46px;
+    i{
+      margin-right: 10px;
+    }
+  }
+  &.yellow-btn{
+    background: $yellow-50;
+    color: $black-3A;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  &.green-btn{
+    background: $green-5A;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  &.black-btn{
+    background: $black-18;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  &.grenn-btn2{
+    color: $white-1;
+    background: $green-68;
+    padding: 11px 16px 11px;
+  }
+  &.grey-btn-outline{
+    color: $grey-4C;
+    border: 1px solid $grey-4C;
+    background: $white-1;
+  }
+  &.grey-btn-solid{
+    color: $white-1;
+    background: $grey-4C;
+  }
+  &.blue-btn-solid{
+    color: $white-1;
+    background: $blue-E8;
+  }
+}
+.btn-green-outline{
+  @include small-outline-btn;
+  &.grey{
+    color: $grey-CF;
+    border: 1px solid $grey-CF;
+  }
+  &.blue{
+    background: transparent;
+    border: 1px solid $blue-E8;
+    color: $blue-E8;
+  }
+}
+.btn-small-solid{
+  @include small-solid-btn;
+  &.green{
+    background: $green-68;
+  }
+  &.blue{
+    background: $blue-E8;
+  }
+  &.grey{
+    background: $grey-66;
+  }
+  &.grey-82 {
+    background: $grey-82;
+  }
+  &.main-page-btn{
+    line-height: 19px;
+    @media screen and (max-width: 767px){
+      line-height: 14px;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "nutrabbit",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --mode dev",
+    "production": "vite --mode production",
+    "build-dev": "vite build --mode dev",
+    "build-production": "vite build --mode production",
+    "serve": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "jw-vue-pagination": "^1.0.3",
+    "lodash.debounce": "^4.0.8",
+    "moment": "^2.29.2",
+    "naver-id-login": "^2.0.0",
+    "swiper": "^8.0.7",
+    "tslib": "^2.4.0",
+    "v-pagination-3": "^0.1.7",
+    "validator": "^13.7.0",
+    "vue": "^3.2.25",
+    "vue-axios": "^3.5.2",
+    "vue-i18n": "^9.2.0-beta.30",
+    "vue-loading-overlay": "^4.0.4",
+    "vue-next-select": "^2.10.2",
+    "vue-paginate-3": "^3.6.1",
+    "vue-router": "^4.0.12",
+    "vue-sweetalert2": "^5.0.2",
+    "vue-toastify": "^1.8.1",
+    "vue3-cookies": "^1.0.6",
+    "vue3-popper": "^1.4.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "@vue/compiler-sfc": "^3.2.22",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.3.0",
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.8.0"
+  }
+}

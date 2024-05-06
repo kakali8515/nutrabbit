@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Ballast';
+  src: url('@/assets/fonts/Ballast.eot');
+  src: url('@/assets/fonts/Ballast.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/Ballast.woff2') format('woff2'),
+    url('@/assets/fonts/Ballast.woff') format('woff'),
+    url('@/assets/fonts/Ballast.ttf') format('truetype'),
+    url('@/assets/fonts/Ballast.svg#Ballast') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('@/assets/fonts/Pretendard-Regular.eot');
+  src: url('@/assets/fonts/Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/Pretendard-Regular.woff2') format('woff2'),
+    url('@/assets/fonts/Pretendard-Regular.woff') format('woff'),
+    url('@/assets/fonts/Pretendard-Regular.ttf') format('truetype'),
+    url('@/assets/fonts/Pretendard-Regular.svg#Pretendard-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard-Bold';
+  src: url('@/assets/fonts/Pretendard-Bold.eot');
+  src: url('@/assets/fonts/Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/Pretendard-Bold.woff2') format('woff2'),
+    url('@/assets/fonts/Pretendard-Bold.woff') format('woff'),
+    url('@/assets/fonts/Pretendard-Bold.ttf') format('truetype'),
+    url('@/assets/fonts/Pretendard-Bold.svg#Pretendard-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard-Medium';
+  src: url('@/assets/fonts/Pretendard-Medium.eot');
+  src: url('@/assets/fonts/Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/Pretendard-Medium.woff2') format('woff2'),
+    url('@/assets/fonts/Pretendard-Medium.woff') format('woff'),
+    url('@/assets/fonts/Pretendard-Medium.ttf') format('truetype'),
+    url('@/assets/fonts/Pretendard-Medium.svg#Pretendard-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  src: url('@/assets/fonts/Pretendard-SemiBold.eot');
+  src: url('@/assets/fonts/Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/Pretendard-SemiBold.woff2') format('woff2'),
+    url('@/assets/fonts/Pretendard-SemiBold.woff') format('woff'),
+    url('@/assets/fonts/Pretendard-SemiBold.ttf') format('truetype'),
+    url('@/assets/fonts/Pretendard-SemiBold.svg#Pretendard-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard-Extrabold';
+  src: url('@/assets/fonts/Pretendard-ExtraBold.eot');
+  src: url('@/assets/fonts/Pretendard-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/Pretendard-ExtraBold.woff2') format('woff2'),
+    url('@/assets/fonts/Pretendard-ExtraBold.woff') format('woff'),
+    url('@/assets/fonts/Pretendard-ExtraBold.ttf') format('truetype'),
+    url('@/assets/fonts/Pretendard-ExtraBold.svg#Pretendard-ExtraBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard-thin';
+  src: url('@/assets/fonts/Pretendard-Thin.eot');
+  src: url('@/assets/fonts/Pretendard-Thin.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/Pretendard-Thin.woff2') format('woff2'),
+    url('@/assets/fonts/Pretendard-Thin.woff') format('woff'),
+    url('@/assets/fonts/Pretendard-Thin.ttf') format('truetype'),
+    url('@/assets/fonts/Pretendard-Thin.svg#Pretendard-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard-light';
+  src: url('@/assets/fonts/Pretendard-Light.eot');
+  src: url('@/assets/fonts/Pretendard-Light.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/Pretendard-Light.woff2') format('woff2'),
+    url('@/assets/fonts/Pretendard-Light.woff') format('woff'),
+    url('@/assets/fonts/Pretendard-Light.ttf') format('truetype'),
+    url('@/assets/fonts/Pretendard-Light.svg#Pretendard-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Chungbuk National University';
+  src: url('@/assets/fonts/ChungbukNationalUniversity-Bold.eot');
+  src: url('@/assets/fonts/ChungbukNationalUniversity-Bold.eot?#iefix') format('embedded-opentype'),
+      url('@/assets/fonts/ChungbukNationalUniversity-Bold.woff2') format('woff2'),
+      url('@/assets/fonts/ChungbukNationalUniversity-Bold.woff') format('woff'),
+      url('@/assets/fonts/ChungbukNationalUniversity-Bold.ttf') format('truetype'),
+      url('@/assets/fonts/ChungbukNationalUniversity-Bold.svg#ChungbukNationalUniversity-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

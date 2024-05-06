@@ -1,0 +1,564 @@
+{
+    "message": "안녕하세요!",
+    "address": {
+        "city": "콜카타"
+    },
+    "common": {
+        "title": {
+            "login": "로그인",
+            "Membershiptype": "회원가입 타입",
+            "PersonalMembership": "개인 회원가입",
+            "BusinessMembership": "사업자 회원가입",
+            "HowToSignUp": "회원가입 방법",
+            "GeneralSignUp": "일반 회원가입",
+            "SnsSignUp": "SNS 회원가입",
+            "completeRegistration": "회원가입 완료",
+            "ChangePassword": "비밀번호 변경"
+        },
+        "SubTitle": {
+            "PersonalMember": "개인회원",
+            "MemberType": "회원 타입을 선택해주세요",
+            "PersonalMembership": "개인이 가입하는 경우",
+            "BusinessMembership": "기업이 가입하는 경우",
+            "RegistrationProcess": "회원가입 시 진행할 방법을 선택해주세요",
+            "EmailSignUp": "이메일을 통해 회원으로 가입합니다.",
+            "SnsSignUp": "SNS 아이디를 통해 회원으로 가입합니다.",
+            "completeRegistrationMsg1": "회원가입이 완료되었습니다.",
+            "completeRegistrationMsg2": "지금부터 nutri 3.3의 다양한 기능을 경험해보세요!",
+            "changePassword": "비밀번호를 변경해주세요",
+            "BusinessMember": "사업자회원"
+        },
+        "label": {
+            "ID": "아이디",
+            "Password": "비밀번호",
+            "TermsCheckBoxLink": "이용약관",
+            "TermsCheckBox": "(필수) {0}에 동의합니다.",
+            "PersonalInfoCheckBoxLink": "개인정보 수집·이용",
+            "PersonalInfoCheckBox": "(필수) {0}에 동의합니다.",
+            "Name": "이름",
+            "VerifyPassword": "비밀번호 확인",
+            "Email": "이메일",
+            "EmailVerification": "이메일 인증번호",
+            "PhoneNumber": "휴대폰번호",
+            "Address": "주소",
+            "OfflineCheck": "오프라인",
+            "OnlineCheck": "온라인",
+            "NetworkCheck": "네트워크 (방문판매)",
+            "SNSCheck": "SNS",
+            "EtcCheck": "기타",
+            "FindUs": "유통매체",
+            "NewPassword": "새 비밀번호",
+            "Newpasswordconfirmation": "새 비밀번호 확인",
+            "BusinessNo": "사업자번호",
+            "BusinessName": "사업자명",
+            "department": "부서명",
+            "contactPerson": "담당자명"
+        },
+        "placeholder": {
+            "EnterId": "아이디 입력",
+            "EnterPassword": "비밀번호 입력",
+            "Name": "이름 입력",
+            "PasswordFormatSignup": "10~20자 영문 대소문자, 숫자, 특수기호 포함",
+            "VerifyPassword": "비밀번호 확인",
+            "Email": "이메일 입력",
+            "EnterVerificationCode": "이메일 인증번호 입력",
+            "PhoneNumber": "휴대폰번호 입력",
+            "EnterAddress": "주소 입력 ",
+            "EnterDetailedAddress": "상세 주소 입력 ",
+            "EnterNewPassword": "새 비밀번호 입력",
+            "Newpasswordconfirmation": "새 비밀번호 확인",
+            "EnterBusinessNo": "사업자번호 입력",
+            "EnterBusinessName": "사업자명 입력",
+            "Enterdepartment": "부서명 입력",
+            "EntercontactPerson": "담당자명 입력"
+        },
+        "QuickLinks": {
+            "RememberId": "아이디 저장",
+            "FindID": "아이디 찾기",
+            "FindPassword": "비밀번호 찾기",
+            "SignUp": "회원가입",
+            "CacaoLogin": "카카오로 시작하기",
+            "NaverLogin": "네이버로 시작하기",
+            "AppleLogin": "Apple로 계속하기",
+            "home": "홈으로"
+        },
+        "Error": {
+            "Resquired": "* 필수항목",
+            "EnterId": "[ID를 입력해주세요]",
+            "chcekId": "[ID가 존재하지 않습니다]",
+            "EnterPassword": "[비밀번호를 입력해주세요]",
+            "checkPassword": "비밀번호가 일치하지 않습니다",
+            "EnterName": "이름을 입력해주세요",
+            "useridFormatSignup": "문자와 숫자만 입력해주세요.",
+            "useridAvailable": "사용 가능합니다.",
+            "checkIdAvailable": "중복확인이 필요합니다.",
+            "PasswordFormat": "비밀번호를 입력해주세요 (*10~20자 영문 대소문자, 숫자, 특수기호 포함)",
+            "ConfirmPassword": "비밀번호를 확인해주세요",
+            "EnterEmail": "이메일을 입력해주세요",
+            "ValidEmail": "올바른 이메일 주소를 입력하십시오.",
+            "VerifyOtp": "이메일 인증번호를 확인해주세요.",
+            "FindIdOtpVerify": "이메일 인증번호를 확인해주세요.",
+            "EnterOtp": "이메일 인증번호를 입력해주세요",
+            "EnterPhone": "휴대폰번호를 입력해주세요",
+            "OnlyNumber": "번호만 입력해주세요.",
+            "EnterAddress": "주소를 입력해주세요",
+            "OTPCheck": "인증번호가 일치하지 않습니다.",
+            "BusinessNo": "사업자번호를 입력해주세요",
+            "BusinessName": "사업자명을 입력해주세요",
+            "department": "부서명을 입력해주세요",
+            "contactPerson": "담당자명을 입력해주세요",
+            "UserExists": "이미 존재하는 아이디입니다.",
+            "EmailExists": "이미 존재하는 이메일입니다."
+        },
+        "Modal" :{
+            "EmailVerified" : "이메일 인증 완료",
+            "ID" : "고객님의 아이디는 {ID}입니다.  ",
+            "ServerError" : "서버 에러!",
+           "ServerErrorSub" : "다음에 다시 시도해주세요."
+         }
+    },
+    "onlyme": {
+        "title": {
+            "myRecipe": "나의 레시피",
+            "Nutri": "nutri 3.3",
+            "RecommendedBlending": "추천 블랜딩",
+            "MyChoice": "my choice",
+            "Options": "선택 사항",
+            "Title": "제목",
+            "AdditionalRequest": "추가 요청 사항",
+            "Service": "서비스",
+            "Application": "내 신청내역",
+            "SampleTab": "샘플 신청내역",
+            "QuoteTab": "견적 신청내역",
+            "Answer": "답변",
+            "SampleAppliction": "샘플 신청",
+            "SampleApplicationCost": "샘플비용 300,000원/유료",
+            "Estimate": "견적 받기"
+        },
+        "tableCaption": {
+            "Category": "카테고리",
+            "Description": "설명",
+            "RawMaterial": "원료",
+            "Formulation": "제형",
+            "Package": "패키지",
+            "AdditionalRequest": "추가 요청사항",
+            "Service": "서비스",
+            "ApplicationDate": "신청 날짜"
+        },
+        "add_req_caption": {
+            "Caption": "자세히 작성할 수록 견적이 정확해집니다."
+        },
+        "service_caption": {
+            "Caption": "* 중복 선택 가능 (샘플 신청 시 패키지는 제외됩니다.)"
+        },
+        "service_info": {
+            "ContentOne": "* 견적은 영업일 수 2일 이내에 등록하신 이메일로 발송됩니다.",
+            "ContentTwo": "* 수량&패키지 디자인에 따라 단가 차이가 발생할 수 있습니다.",
+            "ContentThree": "* 완료시점에 상세견적과 차이가 날 수 있습니다."
+        },
+        "placeholder": {
+            "title": "구아검가수분해물로 만든 나만의 레시피",
+            "additionalRequest": "자유롭게 기재해 주세요."
+        },
+        "button": {
+            "DeleteSelection": "선택 삭제",
+            "Next": "다음",
+            "Confirm": "확인",
+            "Cancel": "취소",
+            "Delete": "삭제",
+            "Edit": "수정",
+            "Save": "저장",
+            "Previous": "이전",
+            "List": "목록으로"
+        },
+        "modal": {
+            "SelectedBodyText": "선택된 항목이 없습니다.",
+            "DeleteBodyText": "해당 사항을 삭제하시겠습니까?",
+            "ServiceSelect": "서비스를 선택해주세요."
+        }
+    },
+    "button": {
+        "add": "담기",
+        "next": "다음",
+        "Previous": "이전",
+        "Save_as_draft": "임시저장",
+        "Confirm": "확인",
+        "sendVerification": "인증번호 전송",
+        "resendVerification": "인증번호 재전송",
+        "verify": "인증",
+        "SearchAddress": "주소 검색",
+        "change": "변경",
+        "checkAvailability": "중복확인"
+    },
+    "main": {
+        "my_choice": {
+            "title": "직접 만드는 <br/> 건강기능식품 레시피!",
+            "desc": "기능, 원료, 제형, 패키지까지 간단한 클릭만으로 조합하여 <br/> 견적부터 샘플 주문까지 요청할 수 있는 서비스입니다.",
+            "button": "my choice 바로가기"
+        },
+        "nutri": {
+            "heading": "nutri 3.3 블랜딩",
+            "title": "독점으로 제공되는 <br/> 나만의 제품 출시의 기회!",
+            "desc": "건강기능식품 런칭을 위한 풀 패키지 서비스를 제공합니다. <br/>바로 제품을 런칭할 수 있도록 컨셉, 네이밍, 디자인 등을 함께 제공해드립니다.",
+            "button": "nutri 3.3 블랜딩"
+        }
+    },
+    "footer": {
+        "address": {
+            "co_name": "(주) 뉴트래빗",
+            "ceo": "대표자 : 민경란",
+            "reg_no": "사업자등록번호 : 603-88-01301",
+            "phone_no": "전화번호 : ",
+            "mail_order" : "통신판매업신고번호 : 제2022-안양동안-0906호",
+            "location": "본사 : 경기도 안양시 동안구 시민대로383, B동 402호 (관양동, 디지털엠파이어)",
+            "copyright": "Copyright 2022 NUTRABBIT. All right reseved."
+        },
+        "term": "이용약관",
+        "privacy": "개인정보처리방침",
+        "total": "총",
+        "result": "결과",
+        "number_text":"개",
+        "no_result": "검색결과가 없습니다."
+    },
+    "header": {
+        "login": "로그인",
+        "myChoice": "my choice",
+        "nutri": "nutri 3.3 블랜딩",
+        "search": "원하는 검색어를 입력하세요.",
+        "ChangePersonalInfo": "개인정보 변경",
+        "logout": "로그아웃",
+        "searchHistory": "최근 검색 기록이 없습니다.",
+        "close": "닫기",
+        "delete": "전체삭제",
+        "SideNav": {
+            "AboutUs": "회사소개",
+            "myChoice": "my choice",
+            "nutriBlending": "nutri 3.3 블랜딩",
+            "SampleMakingGuide": "샘플 제작 가이드",
+            "RawMaterialStorage": "원료 보관함",
+            "MyRecipe": "나의 레시피",
+            "MyApplication": "내 신청내역",
+            "Notice": "공지사항",
+            "FAQ": "FAQ",
+            "Inquiry": "1:1 문의"
+        }
+    },
+    "myChoice": {
+        "popup": {
+            "list1": "직접 선택한 기능, 원료, 제형, 패키지로 건강식품 레시피를 구성하는 메뉴입니다.",
+            "list2": "먼저 원하시는 카테고리를 선택하세요.",
+            "list3": "직접 원료 선택이 어려우신 분들을 위해 ‘추천 블랜딩’을 제공합니다."
+        },
+        "RecommendedBlending": {
+            "title": "추천 블랜딩",
+            "popup": {
+                "list1": "원료 선택이 어려우신 분들을 위한 추천레시피 입니다.",
+                "list2": "추천 블랜딩은 효과적인 원료와 제형이 이미 구성되어 있는 반제품입니다.",
+                "list3": "원하시는 추천 레피시를 선택하세요."
+            },
+            "more": "더보기",
+            "detail": {
+                "main_raw_material": "주원료",
+                "Auxiliary_material": "부원료",
+                "Efficacy": "효능",
+                "Appearance": "성상",
+                "Product_Information": "제품 설명",
+                "Similar_Products": "유사 제품"
+            }
+        },
+        "RawMaterial": {
+            "title": "원료",
+            "popup": {
+                "list1": "내가 직접 건강기능식품 레시피를 만들어 보는 메뉴입니다.",
+                "list2": "원하시는 원료를 선택하세요. (다중선택 가능)"
+            },
+            "popularity": "인기순",
+            "alphabetical": "가나다순",
+            "modal": {
+                "heading": "원료 보관함에 추가되었습니다.",
+                "btn1": "보관함 가기",
+                "btn2": "확인"
+            },
+            "detail": {
+                "Similar_Products": "타사 유사제품",
+                "Standard": "기준",
+                "Rawmaterials": "원재료",
+                "Appearance": "성상",
+                "Functionalcontent": "기능성내용",
+                "DailyIntake": "1일 섭취량",
+                "Precautions": "주의사항",
+                "Etc": "기타사항"
+            }
+        }
+    },
+    "progress_bar": {
+        "selection1": "원료 선택",
+        "selection2": "제형 선택",
+        "selection3": "패키지 선택",
+        "selection4": "최종 견적"
+    },
+    "package": {
+        "title": "패키지 선택",
+        "popup": {
+            "list1": "원하시는 패키지를 선택해주세요.",
+            "list2": "샘플신청시, 패키지 선택은 ‘선택 안 함’으로 체크해주세요.",
+            "list3": "하위 패키지는 가장 기본적으로 사용되는 패키지 입니다. 원하시는 패키지가 별도로 있으신 경우, 다음 페이지에서 기재해 주시기 바랍니다."
+        },
+        "etc": "기타",
+        "unchecked": "선택 안 함",
+        "etc_input": "직접입력",
+        "error_etc": "패키지 타입을 기재해주세요."
+    },
+    "final": {
+        "note": {
+            "list1": "* 샘플 신청 시 패키지는 제외됩니다.",
+            "list2": "* 견적은 영업일 수 3일 이내에 등록하신 이메일로 발송됩니다.",
+            "list3": "* 수량&패키지 디자인에 따라 단가 차이가 발생할 수 있습니다.",
+            "list4": "* 완료시점에 상세견적과 차이가 날 수 있습니다."
+        },
+        "Select_Service": "서비스 선택",
+        "Select_Service_desc": "* 중복 선택 가능",
+        "check1": "견적 받기",
+        "check2": "샘플 신청",
+        "check2_info": "샘플비용 300,000원/유료",
+        "AdditionalRequests": "추가 요청 사항",
+        "add_info": "자세히 기재하시면 정확한 견적에 도움이 됩니다.",
+        "textarea_place": "자유롭게 기재해 주세요. 예시) 예상 수량, 타겟제품, 희망 판매가, 유통방식, 주요타겟연령, 해외판매 등",
+        "option": "선택 사항",
+        "No": "No",
+        "Category": "카테고리",
+        "Description": "설명",
+        "modal_msg": "임시저장이 완료되었습니다.",
+        "title": "제목",
+        "title_place": "제목을 입력해 주세요.",
+        "required_title_msg": "제목을 입력해주세요.",
+        "required_service_msg": "서비스를 선택해주세요."
+    },
+    "storageBox": {
+        "heading": "원료 보관함",
+        "title": "원료",
+        "selectAll": "전체선택",
+        "delete": "선택 삭제",
+        "add": "추가 원료 담기",
+        "popup": "원하시는 원료를 추가로 더 담아보세요.",
+        "deleteModal": {
+            "text": "선택하신 원료를 삭제하시겠습니까?",
+            "btn1": "취소",
+            "btn2": "확인"
+        }
+    },
+    "formulation": {
+        "title": "제형 선택",
+        "popup": {
+            "list1": "원하시는 제형을 선택해주세요.",
+            "list2": "선택하신 원료로 만들 수 없는 제형은 견적시 다른 제형으로 변경될 수 있습니다."
+        }
+    },
+    "warningModal": {
+        "text": "진행 중이던 데이터가 있습니다. 데이터는 따로 저장되지 않습니다. 취소하시겠습니까?",
+        "btn1": "취소",
+        "btn2": "확인"
+    },
+    "logoutModal": {
+        "text": "로그아웃하시겠습니까?"
+    },
+    "requireModal": {
+        "text1": "로그인이 필요한 서비스입니다.",
+        "text2": "로그인 후 서비스를 이용해 보세요.",
+        "btn1": "취소",
+        "btn2": "로그인 하기"
+    },
+    "customer": {
+        "title": {
+            "Notice": "공지사항",
+            "Faq": "FAQ",
+            "PublishedDate": "게시날짜",
+            "Inquiry": "1:1 문의",
+            "Status": "답변여부"
+        },
+        "tag": {
+            "Important": "중요",
+            "Answred": "답변내용",
+            "Unanswered": "미답변",
+            "Attachment": "첨부파일",
+            "Inquiries": "문의내용",
+            "AnswerContent": "답변내용"
+        },
+        "inquiryLabel": {
+            "Subject": "문의 제목",
+            "Details": "문의 내용",
+            "Upload": "파일 업로드"
+        },
+        "placeholder": {
+            "InquirySubject": "문의 제목 선택",
+            "InquiryDetails": "문의 내용을 입력해주세요."
+        },
+        "button": {
+            "Inquiry": "1:1 문의하기",
+            "Submit": "등록"
+        },
+        "modal": {
+            "inquiryText": "1:1 문의 등록이 완료되었습니다."
+        }
+    },
+    "nutri": {
+        "title": {
+            "heading": "nutri 3.3 블랜딩 이란?",
+            "sub_heading": "nutri 3.3 블랜딩 소개",
+            "paragraph1": "nutri3.3 블랜딩은 <span> 출시만을 앞둔 준비된 제품</span>을 제공합니다.<br/>제품의 컨셉, 패키지, 브랜딩까지 <span>A to Z 모든 서비스를 간편하게 누릴 수 있는 기회</span>를 잡아보세요.",
+            "heading2": "nutri 3.3 블랜딩 이용방법",
+            "blending": "nutri 3.3 블랜딩 제품",
+            "nutri_list": "* nutri3.3 블랜딩은 제공하는 옵션 내에서만 구매가능합니다.",
+            "nutri_list1": "*제품견적받기를 완료하신 후 상담과 계약이 체결되면 결제와 생산이 진행됩니다.",
+            "desc1": "브랜딩이 된 제품을 구경하세요.",
+            "desc2": "런칭하고 싶은 제품을 <br/>선택하세요.",
+            "desc3": "선택한 제품 상세페이지 하단의 <span>견적받기 버튼</span>을 클릭하세요.",
+            "desc4": "nutri 3.3에서 확인 후<br/> 연락을 드립니다."
+        },
+        "nutriDetails": {
+            "title": "오직, 당신만을 위한 서비스",
+            "title2": "간편하게 나만의 제품 출시 기회를 잡아보세요!",
+            "subtitle": "아래의 버튼을 클릭하여 제품의 주인공이 되어보세요!",
+            "button": "다음"
+        },
+        "nutrimodal": {
+            "bodytext": "해당 제품의 견적을 받으시겠습니까?",
+            "bodytext2": "확인 클릭 시 이메일로 견적이 발송됩니다.",
+            "btntext": "취소",
+            "btntext2": "확인"
+        }
+    },
+    "sampleMaking": {
+        "title": {
+            "title": "샘플 제작 가이드",
+            "subtitle": "nutri 3.3 샘플 서비스",
+            "titledesc": "원하는 건강기능식품 샘플을 nutri 3.3에서 만들어보세요!",
+            "titledesc1": "1회 샘플링 비용 300,000원(VAT포함)으로 제작 가능합니다.",
+            "button": "샘플 제작하러 가기",
+            "text": "*샘플서비스는 유료서비스로 결제완료 후 배송까지 통상 3주의 시간이 소요됩니다."
+        },
+        "sampleprocress": {
+            "title": "샘플 서비스 진행과정",
+            "title1": "샘플 신청",
+            "desc1": "nutri 3.3에서 my choice를 이용한 후 원하는 샘플을 샘플제작 신청하세요!",
+            "desc_sub": "샘플 제작 300,000원 비용 발생 / 추가 수정은 별도 비용 청구",
+            "title2": "개발 회의",
+            "desc2": "신청하신 샘플서비스를 바탕으로 고객님의 요구사항들을 체크합니다.",
+            "title3": "제품 개발",
+            "desc3": "요청한 정보를 바탕으로 샘플을 개발합니다.",
+            "title4": "샘플 생산",
+            "desc4": "제품 개발이 끝나면 샘플을 생산합니다.",
+            "title5": "고객 전달",
+            "desc5": "제작 완료된 샘플은 고객님의 주소로 배송됩니다."
+        },
+        "sampleFaq": {
+            "title": "자주 하는 질문",
+            "ques1": "샘플제작기간은 얼마나 소요되나요?",
+            "ans1": "결제 완료 후 통상 2주정도 소요되나, 제품에 따라 변동이 있을 수 있습니다.",
+            "ques2": "제공되는 샘플의 용량과 수량은 어떻게 되나요?",
+            "ans2": "제공되는 샘플 수량은 다음과 같습니다. * 정제 : 300T / 캡슐 : 300C / 포 : 50포"
+        }
+    },
+    "aboutus": {
+        "title": {
+            "title": "쉽고 편하게 나만의 건강기능식품 브랜드를 만들고 싶다면"
+        },
+        "aboutfirsttext": {
+            "title": "뉴트래빗은 트랜드를 선도하는 건강한 제품을 만들기 위해 기술을 연구하며 편리하고 스마트한 서비스를 제공합니다.<br/>   축적된 노하우와 DB를 활용한 IT기술로 혁신적인 건강기능식품 및 이너뷰티 제조 서비스를 제공합니다."
+        },
+        "recommended": {
+            "title": "이런 분들에게 추천 드립니다!",
+            "rule1": "아이디어는 있는데 <span class='green-text'>어떻게 시작</span>해야 할 지 모르겠어요!",
+            "rule2": "복잡한 식약처 허가 과정,<br/> 의약품처럼 금지 사항이 많아 <br/> <span class='green-text'>전문가의 도움</span>이 꼭! 필요해요!",
+            "rule2_1": "전문 인력",
+            "rule2_2": "이 꼭! 필요해요!",
+            "rule3": "생각보다 많은 <span class='green-text'>최소발주수량</span> 때문에 <br/> 비용이 많이 들어서 고민이 되요",
+            "subtitle": "뉴트리3.3은 제조과정의 A-Z 풀서비스를 제공하는",
+            "content1": "Smart & Simple Solution"
+        },
+        "service": {
+            "title": "내 손안의 건식 제조 내비게이션",
+            "subtitle": "nutri 3.3 서비스",
+            "rule1": "nutri3.3 블랜딩",
+            "rule1_content": "즉시 출시할 수 있도록 준비된 제품을 제공하여 드립니다. <br/>제품의 컨셉, 패키지, 브랜딩까지 풀 패키지 서비스로 간편하게 제품을 만들어 보세요.",
+            "rule2": "추천 블랜딩",
+            "rule2_content": "기능에 적합한 원료와 제형이 구성되어 있는 반제품 형태로 <br/> 원료 선택이 어려우신 분들을 위한 추천 레시피 입니다. <br/> ‘my choice’ 메뉴에서 선택하실 수 있습니다.",
+            "rule3": "my choice",
+            "rule3_content": "내가 직접 선택한 원료, 제형, 패키지로 나만의 제품을 만들 수 있는 서비스 입니다.",
+            "rule4": "무료 견적 서비스",
+            "rule4_content": "내가 원하는대로 조합한 나만의 건강기능식품 제작을 위해 <br/> 무료 견적(예상) 서비스를 제공합니다. ",
+            "rule5": "샘플 제작 서비스",
+            "rule5_content": "직접 선택하신 건강기능식품 샘플을 간편하게 만들어 보실 수 있는 기회를 제공합니다. <br/>(유료 : 300,000원/1회)"
+        }
+    },
+    "personalInfo": {
+        "title": {
+            "title": "개인정보 관리"
+        },
+        "labels": {
+            "name": "이름",
+            "id": "아이디",
+            "password": "비밀번호",
+            "confirm_password": "비밀번호 확인",
+            "email": "이메일",
+            "phonenumber": "휴대폰번호",
+            "address": "주소",
+            "searchaddress": "주소 검색",
+            "find us": "유통매체",
+            "offline": "오프라인",
+            "online": "온라인",
+            "network": "네트워크 (방문판매)",
+            "sns": "SNS",
+            "etc": "기타",
+            "save": "저장",
+            "log_out": "로그아웃",
+            "withdrawal": "회원탈퇴"
+        },
+        "placeholder": {
+            "Name": "이름 입력",
+            "EnterId": "아이디 입력",
+            "PasswordFormat": "10~20자 영문 대소문자, 숫자, 특수기호 포함",
+            "VerifyPassword": "비밀번호 확인",
+            "PhoneNumber": "휴대폰번호 입력",
+            "EnterAddress": "주소 입력 ",
+            "EnterDetailedAddress": "상세 주소 입력 ",
+            "EntercontactPerson": "담당자명 입력",
+            "department": "부서명 입력",
+            "BusinessName": "사업자명 입력"
+        },
+        "info_modal": {
+            "bodytext": "저장되었습니다.",
+            "btntext": "확인"
+        },
+        "personalBussiness": {
+            "title": "개인정보 관리",
+            "businessnumber": "사업자번호",
+            "businessname": "사업자명",
+            "dept": "부서명",
+            "contactperson": "담당자명"
+        },
+        "withdrawal": {
+            "title": "회원탈퇴",
+            "header": "탈퇴사유",
+            "placeholder": "탈퇴사유를 입력해주세요",
+            "button": "확인",
+            "bodytext": "해당 계정을 탈퇴하시겠습니까?",
+            "btntext": "취소",
+            "btntext1": "확인",
+            "reason": "사유를 기재해주세요."
+        },
+        "withdrawmodal": {
+            "bodytext": "탈퇴가 완료되었습니다.",
+            "btntext": "확인"
+        }
+    },
+    "Ingredients": "원료",
+    "Formulation": "제형",
+    "Package": "패키지",
+    "Unanswered" : "미답변",
+    "Answered" : "답변완료",
+    "ETC": "기타",
+    "Unchecked": "선택 안 함",
+    "Get a quote": "견적 받기",
+    "Sample Request": "샘플 신청"
+}

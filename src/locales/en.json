@@ -1,0 +1,565 @@
+{
+    "message": "Hello!",
+    "address": {
+        "city": "Kolkata"
+    },
+    "common": {
+        "title": {
+            "login": "Login",
+            "Membershiptype": "Membership Type",
+            "PersonalMembership": "Personal Membership",
+            "BusinessMembership": "Business Membership",
+            "HowToSignUp": "How to Sign Up",
+            "GeneralSignUp": "General Sign Up",
+            "SnsSignUp": "SNS Sign Up",
+            "completeRegistration": "Membership registration completed",
+            "ChangePassword": "Change Password"
+        },
+        "SubTitle": {
+            "PersonalMember": "Personal Member",
+            "MemberType": "Please select a member type",
+            "PersonalMembership": "Sign up as personal member",
+            "BusinessMembership": "Sign up as business member",
+            "RegistrationProcess": "Please select a method to proceed when registering as a member",
+            "EmailSignUp": "Sign up via Email.",
+            "SnsSignUp": "Sign up via your SNS ID",
+            "completeRegistrationMsg1": "Sign up is complete.",
+            "completeRegistrationMsg2": "Experience the various features of nutri 3.3 from now on!",
+            "changePassword": "Please change your password",
+            "BusinessMember": "Business Member"
+        },
+        "label": {
+            "ID": "ID",
+            "Password": "Password",
+            "TermsCheckBoxLink": "Terms of Use.",
+            "TermsCheckBox": "(Required) I agree to the {0}",
+            "PersonalInfoCheckBoxLink": "personal information.",
+            "PersonalInfoCheckBox": "(Required) I agree to the collection and use of {0}",
+            "Name": "Name",
+            "VerifyPassword": "Verify Password",
+            "Email": "Email",
+            "EmailVerification": "Email Verification Number",
+            "PhoneNumber": "Phone Number",
+            "Address": "Address",
+            "OfflineCheck": "Offline",
+            "OnlineCheck": "Online",
+            "NetworkCheck": "Network (door-to-door sales)",
+            "SNSCheck": "SNS",
+            "EtcCheck": "Etc",
+            "FindUs": "How did you find us?",
+            "NewPassword": "New password",
+            "Newpasswordconfirmation": "New password confirmation",
+            "BusinessNo": "Business Number",
+            "BusinessName": "Business name",
+            "department": "Department",
+            "contactPerson": "Contact person"
+        },
+        "placeholder": {
+            "EnterId": "Enter ID",
+            "EnterPassword": "Enter Password",
+            "Name": "Enter your name",
+            "PasswordFormatSignup": "10-20 characters including uppercase and lowercase letters, numbers, and special symbols",
+            "VerifyPassword": "Verify Password",
+            "Email": "Enter your Email",
+            "EnterVerificationCode": "Enter your email verification code",
+            "PhoneNumber": "Enter your mobile phone number",
+            "EnterAddress": "Enter address",
+            "EnterDetailedAddress": "Enter detailed address",
+            "EnterNewPassword": "Enter new password",
+            "Newpasswordconfirmation": "New password confirmation",
+            "EnterBusinessNo": "Enter business Number",
+            "EnterBusinessName": "Enter business name",
+            "Enterdepartment": "Enter department name",
+            "EntercontactPerson": "Enter the person in charge"
+        },
+        "QuickLinks": {
+            "RememberId": "Remember ID",
+            "FindID": "Find ID",
+            "FindPassword": "Find Password",
+            "SignUp": "Sign Up",
+            "CacaoLogin": "Login with Kakao",
+            "NaverLogin": "Login with Naver",
+            "AppleLogin": "Continue with Apple",
+            "home": "Home"
+        },
+        "Error": {
+            "Resquired": "* Required",
+            "EnterId": "Please enter your ID",
+            "chcekId": "User ID doesn’t exist!",
+            "EnterPassword": "Please enter password",
+            "checkPassword": "Password doesn’t match",
+            "EnterName": "Input your name, please",
+            "useridFormatSignup": "Please use only letter and number",
+            "useridAvailable": "User ID available",
+            "checkIdAvailable": "Have to check user ID availability",
+            "PasswordFormat": "Enter your password (*10-20 characters including uppercase and lowercase letters, numbers, and special symbols)",
+            "ConfirmPassword": "Please confirm your password",
+            "EnterEmail": "Please enter your email address",
+            "ValidEmail": "Enter a valid email address",
+            "VerifyOtp": "Have to verify the otp for email",
+            "FindIdOtpVerify": "Please Verify OTP",
+            "EnterOtp": "Please enter your email verification code",
+            "EnterPhone": "Please enter your mobile phone number",
+            "OnlyNumber": "Only numbers are allowed",
+            "EnterAddress": "Please enter your address",
+            "OTPCheck": "The verification code does not match.",
+            "BusinessNo": "Please enter your business number",
+            "BusinessName": "Please enter your business name",
+            "department": "Please enter the department name",
+            "contactPerson": "Please enter the name of the person in charge",
+            "UserExists": "User Already Exists",
+            "EmailExists": "Email ID Already Exists"
+        },
+
+        "Modal" :{
+           "EmailVerified" : "Email verified",
+           "ID" : "Your user ID is {ID}",
+           "ServerError" : "Server Error!",
+           "ServerErrorSub" : "Please try again next time."
+        }
+    },
+    "button": {
+        "add": "Add",
+        "next": "Next",
+        "Previous": "Previous",
+        "Save_as_draft": "Save as Draft",
+        "Confirm": "Confirm",
+        "sendVerification": "Send code",
+        "resendVerification": "Resend",
+        "verify": "Verify",
+        "SearchAddress": "Search",
+        "change": "Change",
+        "checkAvailability": "Check"
+    },
+    "onlyme": {
+        "title": {
+            "myRecipe": "my recipe",
+            "Nutri": "nutri 3.3",
+            "RecommendedBlending": "Recommended blending",
+            "MyChoice": "my choice",
+            "Options": "Options",
+            "Title": "Title",
+            "AdditionalRequest": "Additional Requests",
+            "Service": "Service",
+            "Application": "My Application",
+            "SampleTab": "Sample Application Details",
+            "QuoteTab": "Quotation Request Details",
+            "Answer": "Answer",
+            "SampleAppliction": "Sample application",
+            "SampleApplicationCost": "Sample cost $270/paid",
+            "Estimate": "Get an estimate"
+        },
+        "tableCaption": {
+            "Category": "Category",
+            "Description": "Description",
+            "RawMaterial": "Ingredients",
+            "Formulation": "Formulation",
+            "Package": "Package",
+            "AdditionalRequest": "Additional Request",
+            "Service": "Service",
+            "ApplicationDate": "Application Date"
+        },
+        "add_req_caption": {
+            "Caption": "The more detailed you are, the more accurate your estimate will be."
+        },
+        "service_caption": {
+            "Caption": "* Duplicate selection possible (package is excluded when requesting a sample.)"
+        },
+        "service_info": {
+            "ContentOne": "* The quotation will be sent to the registered email address within 2 business days.",
+            "ContentTwo": "* Unit price may vary depending on quantity & package design.",
+            "ContentThree": "* It may differ from the detailed estimate at the time of completion."
+        },
+        "placeholder": {
+            "title": "My own recipe made with guar gum hydrolyzate",
+            "additionalRequest": "Please write freely"
+        },
+        "button": {
+            "DeleteSelection": "Delete Selected",
+            "Next": "Next",
+            "Confirm": "Confirm",
+            "Cancel": "Cancel",
+            "Delete": "Delete",
+            "Edit": "Edit",
+            "Save": "Save",
+            "Previous": "Previous",
+            "List": "List"
+        },
+        "modal": {
+            "SelectedBodyText": "There are no items selected.",
+            "DeleteBodyText": "Are you sure you want to delete it?",
+            "ServiceSelect": "Please select a service"
+        }
+    },
+    "main": {
+        "my_choice": {
+            "title": "Make your own <br/> Health Functional Food Recipes!",
+            "desc": "A service you can get from quotation to sample order <br/> by combining function, ingredients, formulation, and package with a simple click. ",
+            "button": "Go to my choice"
+        },
+        "nutri": {
+            "heading": "nutri 3.3 blending",
+            "title": "Exclusive opportunity <br/>to release your product!",
+            "desc": "Provides a full package service for launching health functional foods. <br/> We provide concepts, names, and designs so that you can launch the product right away.",
+            "button": "nutri 3.3 blending"
+        }
+    },
+    "footer": {
+        "address": {
+            "co_name": "NUTRABBIT Co., Ltd.",
+            "ceo": "CEO : Min Kyoung-ran",
+            "reg_no": "Business Registration Number: 603-88-01301",
+            "phone_no": "Phone Number : ",
+            "mail_order" : "Mail Order Business Report Number : 제2022-안양동안-0906호",
+            "location": "Location: B building Unit# 402, 383, Simin-daero, Dongan-gu, Anyang-si, Gyeonggi-do, Republic of Korea",
+            "copyright": "Copyright 2022 NUTRABBIT. All right reserved."
+        },
+        "term": "Terms of Use",
+        "privacy": "Privacy Policy",
+        "total": "Total",
+        "result": "result",
+        "number_text":"",
+        "no_result": "No results were found for your search."
+    },
+    "header": {
+        "login": "login",
+        "myChoice": "my choice",
+        "nutri": "nutri 3.3 blending",
+        "search": "Enter search term.",
+        "ChangePersonalInfo": "Change personal information",
+        "logout": "Log out",
+        "searchHistory": "No search history.",
+        "close": "close",
+        "delete": "Delete all",
+        "SideNav": {
+            "AboutUs": "About Us",
+            "myChoice": "my choice",
+            "nutriBlending": "nutri 3.3",
+            "SampleMakingGuide": "Sample Making Guide",
+            "RawMaterialStorage": "Ingredients storage box",
+            "MyRecipe": "Your own recipe",
+            "MyApplication": "My application",
+            "Notice": "Notice",
+            "FAQ": "FAQ",
+            "Inquiry": "1:1 inquiry"
+        }
+    },
+    "myChoice": {
+        "popup": {
+            "list1": "It is a menu that consists of health food recipes with selected functions, ingredients, formulations, and packages.",
+            "list2": "First, select the category you want.",
+            "list3": "We provide 'recommended blending' for those who have difficulty choosing the ingredients."
+        },
+        "RecommendedBlending": {
+            "title": "Recommended Blending",
+            "popup": {
+                "list1": "This is a recommended recipe for those who have difficulty choosing ingredients.",
+                "list2": "Recommended blending is a semi-finished product that has already been formulated with effective ingredients and formulations.",
+                "list3": "Choose the recommended recipe you want."
+            },
+            "more": "View More",
+            "detail": {
+                "main_raw_material": "Main ingredients",
+                "Auxiliary_material": "Auxiliary material",
+                "Efficacy": "Efficacy",
+                "Appearance": "Appearance",
+                "Product_Information": "Product Information",
+                "Similar_Products": "Similar Products"
+            }
+        },
+        "RawMaterial": {
+            "title": "Ingredients",
+            "popup": {
+                "list1": "This is a menu where I make my own health functional food recipes.",
+                "list2": "Choose the ingredients you want. (Multiple selection possible)"
+            },
+            "popularity": "Popularity",
+            "alphabetical": "Alphabet",
+            "modal": {
+                "heading": "Added to ingredients cart",
+                "btn1": "Go to Cart",
+                "btn2": "Confirm"
+            },
+            "detail": {
+                "Similar_Products": "Third-party similar products",
+                "Standard": "Standard",
+                "Rawmaterials": "Ingredients",
+                "Appearance": "Appearance",
+                "Functionalcontent": "Functional content",
+                "DailyIntake": "Daily Intake",
+                "Precautions": "Precautions",
+                "Etc": "Etc"
+            }
+        }
+    },
+    "progress_bar": {
+        "selection1": "Ingredients selection",
+        "selection2": "Formulation selection",
+        "selection3": "Package selection",
+        "selection4": "Final estimate"
+    },
+    "package": {
+        "title": "Package selection",
+        "popup": {
+            "list1": "Please select the desired package.",
+            "list2": "When requesting a sample, please check 'Not Selected' for package selection.",
+            "list3": "Subpackages are the most used packages. If there is a separate package you want, please indicate it on the next page."
+        },
+        "etc": "Etc",
+        "unchecked": "unchecked",
+        "etc_input": "Direct input",
+        "error_etc": "Please add custom package input."
+    },
+    "final": {
+        "note": {
+            "list1": "* Packages are excluded when requesting samples.",
+            "list2": "* The quotation will be sent to the registered email address within 3 business days.",
+            "list3": "* Unit price may vary depending on quantity & package design.",
+            "list4": "* It may differ from the detailed estimate at the time of completion."
+        },
+        "Select_Service": "Select Service",
+        "Select_Service_desc": "* Multiple selection possible",
+        "check1": "Get an estimate",
+        "check2": "Sample Application",
+        "check2_info": "Sample cost $270/paid",
+        "AdditionalRequests": "Additional Requests",
+        "add_info": "If you provide more details, it will help you get an accurate estimate.",
+        "textarea_place": "Please write freely. example) Quantity, target product, packaging unit, target age ingredients development, desired package Thinking cost or selling price, etc.",
+        "option": "Options",
+        "No": "No",
+        "Category": "Category",
+        "Description": "Description",
+        "modal_msg": "Saved as a draft.",
+        "title": "Title",
+        "title_place": "Please enter the subject.",
+        "required_title_msg": "Title is required",
+        "required_service_msg": "Please select a service"
+    },
+    "storageBox": {
+        "heading": "Ingredients storage box",
+        "title": "Ingredients",
+        "selectAll": "Select All",
+        "delete": "Delete selection",
+        "add": "Add additional ingredients",
+        "popup": "Add more ingredients of your choice.",
+        "deleteModal": {
+            "text": "Are you sure you want to delete the selected ingredients?",
+            "btn1": "Cancel",
+            "btn2": "Confirm"
+        }
+    },
+    "formulation": {
+        "title": "Formulation selection",
+        "popup": {
+            "list1": "Please select the desired format.",
+            "list2": "Formulations that cannot be made with the selected ingredients may be changed to other formulations at the time of quotation."
+        }
+    },
+    "warningModal": {
+        "text": "There is data in progress. Data is not stored separately. Are you sure you want to cancel?",
+        "btn1": "Cancel",
+        "btn2": "Confirm"
+    },
+    "logoutModal": {
+        "text": "Are you sure you want to log out?"
+    },
+    "requireModal": {
+        "text1": "This service requires login.",
+        "text2": "Please use the service after logging in.",
+        "btn1": "Cancel",
+        "btn2": "Login"
+    },
+    "customer": {
+        "title": {
+            "Notice": "Notice",
+            "Faq": "FAQ",
+            "PublishedDate": "Published date",
+            "Inquiry": "1:1 Inquiry",
+            "Status": "Status"
+        },
+        "tag": {
+            "Important": "Important",
+            "Answred": "Answer",
+            "Unanswered": "Unanswered",
+            "Attachment": "Attachment",
+            "Inquiries": "Inquiries",
+            "AnswerContent": "Answer content"
+        },
+        "inquiryLabel": {
+            "Subject": "Inquiry Subject",
+            "Details": "Inquiry",
+            "Upload": "File Upload"
+        },
+        "placeholder": {
+            "InquirySubject": "Choose the subject of your inquiry",
+            "InquiryDetails": "Please enter your inquiry details."
+        },
+        "button": {
+            "Inquiry": "1:1 Inquiry",
+            "Submit": "Submit"
+        },
+        "modal": {
+            "inquiryText": "1:1 inquiry registration has been completed."
+        }
+    },
+    "nutri": {
+        "title": {
+            "heading": "What is nutri 3.3 blending?",
+            "sub_heading": "Introduction to nutri 3.3 blending?",
+            "paragraph1": "nutri3.3 blending provides <span>ready-to-market products</span>.<br/>Seize <span>the opportunity to enjoy all services from A to Z</span> from product concept, package, and branding.",
+            "heading2": "How to use nutri 3.3 blending",
+            "blending": "nutri 3.3 blending product",
+            "nutri_list": "* nutri3.3 blending can only be purchased within the options provided.",
+            "nutri_list1": "*After receiving product quotation, consultation and contract are concluded, payment and production will proceed.",
+            "desc1": "Take a look at our branded products",
+            "desc2": "Choose the product you want to launch",
+            "desc3": "Click the <span>Get an estimate</span> button at the bottom of the detail page on selected product",
+            "desc4": "We will contact you after checking"
+        },
+        "nutriDetails": {
+            "title": "A service just for you",
+            "title2": "Easily seize your own product launch opportunity!",
+            "subtitle": "Click the button below to become the hero of the product!",
+            "button": "Next"
+        },
+        "nutrimodal": {
+            "bodytext": "Would you like to get an estimate for this product?",
+            "bodytext2": "An estimate will be sent to you by email when you click OK.",
+            "btntext": "cancellation",
+            "btntext2": "Confirm"
+        }
+    },
+    "sampleMaking": {
+        "title": {
+            "title": "Sample making guide",
+            "subtitle": "nutri 3.3 sample service",
+            "titledesc": "Make the health functional core food sample you want in nutri 3.3!",
+            "titledesc1": "It can be produced at a sampling cost of $270 (VAT included) per one time.",
+            "button": "Go to sample",
+            "text": "*Sample service is a paid service, and it usually takes 3 weeks for delivery after payment is completed."
+        },
+        "sampleprocress": {
+            "title": "Sample service process",
+            "title1": "Request for Sample",
+            "desc1": "Request for sample production on your desired sample from my choice in nutri 3.3.",
+            "desc_sub": "Sample production costs $270 / Additional modifications are charged separately",
+            "title2": "Development Meeting",
+            "desc2": "We check your requirements based on the sample service requested.",
+            "title3": "Develop Product",
+            "desc3": "We develop samples based on the requested information.",
+            "title4": "Produce Sample",
+            "desc4": "We produce samples after product development",
+            "title5": "Deliver to Customer",
+            "desc5": "The finished sample will be shipped to your address."
+        },
+        "sampleFaq": {
+            "title": "Frequently Asked Questions",
+            "ques1": "How long does sample production take?",
+            "ans1": "Usually takes about 3 weeks after payment is completed, but it may varies by product.",
+            "ques2": "What is the volume and quantity of samples provided?",
+            "ans2": "Sample quantity offered is as follows: * Tablets: 30T / Capsules: 30C / Packets: 10 Packs"
+        }
+    },
+    "aboutus": {
+        "title": {
+            "title": "If you want to make your own health functional food brand"
+        },
+        "aboutfirsttext": {
+            "title": "Nutrabbit researches technology to create trend-leading healthy products and provides convenient and smart services.<br/> We provide innovative health functional food and inner beauty manufacturing services with IT technology utilizing accumulated know-how and DB."
+        },
+        "recommended": {
+            "title": "Recommend to these people!", 
+            "rule1": "I have an idea but I don't know <span class='green-text'>how to start!</span>",
+            "rule2": "I need <span class='green-text'>professional support </span><br/> because there are too many<br/> prohibitions<br/> like pharmaceuticals,<br/> complicated approval process<br/> from public organization!",
+            "rule2_1": "professional support",
+            "rule2_2": "because there are too many prohibitions like pharmaceuticals, complicated approval process from public organization!",
+            "rule3": "I’m worried about a high cost <br/> because of <span class='green-text'>MOQ</span> <br/> which is more than I expected.",
+            "subtitle": "nutri3.3 provides full service from A to Z in the manufacturing process",
+            "content1": "Smart & Simple Solution"
+        },
+        "service": {
+            "title": "Easy & handy dry manufacturing navigation",
+            "subtitle": "nutri 3.3 service",
+            "rule1": "nutri3.3 blending",
+            "rule1_content": "We offer products that are ready for immediate launch.Create a product easily with full package service, including product concept, package, and branding.",
+            "rule2": "Recommended blending",
+            "rule2_content": "This is a recommended recipe for those who have difficulty choosing the ingredients in the form of semi-finished products consisting of ingredients and formulations suitable for their function. You can choose from 'my choice' menu.",
+            "rule3": "my choice",
+            "rule3_content": "It is a service that allows you to make your own products with the ingredients, formulations, and packages you choose yourself.",
+            "rule4": "Free Quote Service",
+            "rule4_content": "We offer a free estimate (expected) service for the production of your own health functional food combined as you want.",
+            "rule5": "Sample making service",
+            "rule5_content": "We offer you an opportunity to make a sample of your own health functional food. (Fee: $270 / once)"
+        }
+    },
+    "personalInfo": {
+        "title": {
+            "title": "Personal Information Management"
+        },
+        "labels": {
+            "name": "Name",
+            "id": "ID",
+            "password": "Password",
+            "confirm_password": "Verify Password",
+            "email": "Email",
+            "phonenumber": "Phone Number",
+            "address": "Address",
+            "searchaddress": "Search",
+            "find us": "How did you find us?",
+            "offline": "Offline",
+            "online": "Online",
+            "network": "Network (door-to-door sales)",
+            "sns": "SNS",
+            "etc": "Etc",
+            "save": "Save",
+            "log_out": "Log out",
+            "withdrawal": "Withdrawal"
+        },
+        "placeholder": {
+            "Name": "Enter your name",
+            "EnterId": "Enter ID",
+            "PasswordFormat": "10-20 characters including uppercase and lowercase letters, numbers, and special symbols",
+            "VerifyPassword": "Verify Password",
+            "PhoneNumber": "Enter your mobile phone number",
+            "EnterAddress": "Enter address",
+            "EnterDetailedAddress": "Enter detailed address",
+            "EntercontactPerson": "Enter the person in charge",
+            "department": "Enter department name",
+            "BusinessName": "Enter business name"
+        },
+        "info_modal": {
+            "bodytext": "Changes are applied",
+            "btntext": "Confirm"
+        },
+        "personalBussiness": {
+            "title": "Personal Information Management",
+            "businessnumber": "Business Number",
+            "businessname": "Business Name",
+            "dept": "Department",
+            "contactperson": "Contact Person"
+        },
+        "withdrawal": {
+            "title": "Withdrawal",
+            "header": "Reason for withdrawal",
+            "placeholder": "Please enter the reason for withdrawal",
+            "button": "Confirm",
+            "bodytext": "Are you sure you want to withdraw this account?",
+            "btntext": "Cancel",
+            "btntext1": "Confirm",
+            "reason": "Please enter the reason"
+        },
+        "withdrawmodal": {
+            "bodytext": "Your withdrawal is complete.",
+            "btntext": "Confirm"
+        }
+    },
+    "Ingredients": "Ingredients",
+    "Formulation": "Formulation",
+    "Package": "Package",
+    "Unanswered" : "Unanswered",
+    "Answered" : "Answered",
+    "ETC": "Etc",
+    "Unchecked": "Unchecked",
+    "Get a quote": "Get an estimate",
+    "Sample Request": "Sample Request"
+}
